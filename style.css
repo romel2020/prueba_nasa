@@ -1,0 +1,45 @@
+ h1 {
+  
+    color: black;
+}
+ 
+  .header h1 {
+    margin-top: 200px;
+    color: blanchedalmond;
+  }
+
+  .header h2 {
+    
+    color: blanchedalmond;
+  }
+  
+  header {
+  
+    background-image: url("./img/13204682_xl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 420px;
+    padding-bottom: 10rem;
+    animation: mov 12s infinite linear alternate;
+  
+  }
+    
+  img {
+      margin-top: 20px;
+      margin-left: 100px;
+      display: block;
+      width: 700px;
+      height: 350px;
+  }
+ 
+   
+  @keyframes mov {
+    from{
+      background-position: bottom left;
+    }to{
+      background-position: top right;
+    }
+  }
+  
+ 
