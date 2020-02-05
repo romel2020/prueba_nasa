@@ -2,7 +2,7 @@ require 'uri'
 require 'net/http'
 require 'openssl'
 require "json"
-require_relative 'cuerpohtml'
+require_relative 'buid_web_page'
 
 def get_data(url)
     url = URI(url)
